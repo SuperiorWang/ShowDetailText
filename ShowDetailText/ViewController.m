@@ -21,7 +21,7 @@
     
     UIButton *testButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [testButton setTitle:@"Test" forState:UIControlStateNormal];
-    testButton.bounds = CGRectMake(0, 0, 30, 100);
+    testButton.bounds = CGRectMake(0, 0, 100, 30);
     testButton.center = CGPointMake([UIScreen mainScreen].bounds.size.width / 2., 50);
     testButton.backgroundColor = [UIColor redColor];
     [testButton addTarget:self action:@selector(showDetailView:) forControlEvents:UIControlEventTouchUpInside];
